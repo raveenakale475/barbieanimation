@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  .image1 {
+    margin-top: 50px;
+  }

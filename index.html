@@ -8,30 +8,19 @@
       rel="icon"
       href="https://cdn.freebiesupply.com/images/large/2x/barbie-logo-png-transparent.png"
     />
+    <link rel="stylesheet" href="./index.css" />
     <title>Barbie Animation</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      body {
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-attachment: fixed;
-      }
-
-      .image1 {
-        margin-top: 50px;
-      }
-    </style>
   </head>
   <body background="barbiehouse.png">
-    <marquee direction="left">
-      <img class="image1" width="200px" src="dance.gif" alt="barbiedance" />
+    <!-- marque tag is a container tag for creating scrollable images within a web page from either left to right or vice versa -->
+    <marquee scrollamount="20" direction="left">
+      <!-- This is for fairy's image from left to right direction -->
+      <img class="image1" width="200px" src="dance.gif" alt="fairydance" />
     </marquee>
-    <marquee direction="right">
+    <marquee scrollamount="20" direction="right">
+      <!-- This is for barbie's images from right to left direction -->
       <img class="image1" width="300px" src="barbie.gif" alt="barbiedance" />
-      <img class="image1" width="200px" src="doll.gif" alt="barbiedance" />
+      <img class="image1" width="200px" src="doll.gif" alt="dolldance" />
     </marquee>
   </body>
 </html>
